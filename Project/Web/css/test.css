@@ -1,0 +1,227 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(196, 109, 109, 0.5); /* Màu nền với độ mờ */
+  }
+  
+  
+
+  #question {
+    max-width: 80%; /* Đặt chiều rộng tối đa cho phần câu hỏi */
+    margin-bottom: 20px;
+  }
+
+  
+
+
+  /* bộ đếm giờ */
+  #timer {
+  position: absolute;
+  font-size: 70px;
+  top: 20%;
+  /* right: 10%; */ 
+  /* border: 2px solid #000000; */
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px 10px 10px 10px;
+}
+#time-up-message{
+    position: anoelute;
+    font-size: 40px;
+    top: 24%;
+    right: 10%;
+    /* border: 2px solid #000000; */
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px 10px 10px 10px;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+  }
+
+
+
+
+
+
+
+
+
+
+/* ------------- */
+/* button */
+
+  .button-container{
+    display: flex;
+}
+
+.button-group button {
+    margin-left: 10px; /* Để tạo khoảng cách giữa các nút */
+}
+
+  #nextQuestionBtn {
+    border-radius: 20px; /* Đặt bán kính bo tròn cho nút */
+    background-color: #c21010; /* Màu nền của nút */
+    font-size: 10px;
+    color: #fff; /* Màu chữ của nút */
+    width: 120px;
+    padding: 13px 10px; /* Đặt lề nội bộ của nút */
+    border: none; /* Loại bỏ đường viền của nút */
+    cursor: pointer; /* Biến con trỏ thành hình cắt giấy khi di chuột qua nút */
+    position: aneolute;
+    top: 50%;
+    left: 50%;
+    bottom: 20px;
+    right: 20px;
+    
+  }
+  
+  #prevQuestionBtn {
+    border-radius: 20px; /* Đặt bán kính bo tròn cho nút */
+    background-color: #c21010; /* Màu nền của nút */
+    font-size: 10px;
+    color: #fff; /* Màu chữ của nút */
+    width: 120px;
+    padding: 13px 10px; /* Đặt lề nội bộ của nút */
+    border: none; /* Loại bỏ đường viền của nút */
+    cursor: pointer; /* Biến con trỏ thành hình cắt giấy khi di chuột qua nút */
+    position: aneolute; /* Thiết lập vị trí tuyệt đối */
+    top: 50%;
+    left: 50%;
+    bottom: 20px; /* Đặt vị trí nút cách mép dưới là 20px */
+    right: 20px; /* Đặt vị trí nút cách mép phải là 20px */
+  }
+
+  #submitBtn {
+    /* clear: both; */
+    display: block;
+    /* display: center; */
+    /* margin-top: 50px; */
+    border-radius: 20px; /* Đặt bán kính bo tròn cho nút */
+    background-color: #c21010; /* Màu nền của nút */
+    font-size: 20px;
+    color: #fff; /* Màu chữ của nút */
+    width: 200px;
+    margin-top: 20px;
+    padding: 15px 20px; /* Đặt lề nội bộ của nút */
+    border: none; /* Loại bỏ đường viền của nút */
+    cursor: pointer; /* Biến con trỏ thành hình cắt giấy khi di chuột qua nút */
+    position: aneolute; /* Thiết lập vị trí tuyệt đối */
+    top: 50%;
+    left: 50%;
+    bottom: 20px; /* Đặt vị trí nút cách mép dưới là 20px */
+    right: 20px; /* Đặt vị trí nút cách mép phải là 20px */
+  }
+
+  .overlay_re {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(221, 194, 194, 0.5); /* Màu nền với độ mờ */
+  }
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+  .content_re {
+    position: relative;
+    background-color: #fff; /* Màu nền của khung */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Hiệu ứng bóng đổ */
+    width: 50vw; /* Sử dụng 80% chiều rộng của viewport */
+    height: 100%; /* Sử dụng 80% chiều cao của viewport */
+    overflow: auto; /* Cho phép cuộn nếu nội dung vượt quá kích thước */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .content_re1 {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    background-color: #C90505;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    max-width: 300px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content_re2 {
+    position: absolute;
+    top: 15%; /* Giữ nguyên vị trí top của khung số 2 */
+    right: 10%;
+    /* left: calc(10% + 300px);  */
+    background-color: #C90505;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    max-width: 300px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width: 768px) {
+  /* Khi kích thước trình duyệt nhỏ hơn hoặc bằng 768px */
+  /* Đưa content_re2 xuống dòng */
+  .content_re2 {
+      clear: both; /* Đảm bảo content_re2 không lấn qua content_re1 */
+      margin-top: 200px; /* Khoảng cách từ content_re1 */
+  }
+}
+
+.content_re3 {
+  position: absolute;
+  flex-grow: 1; /* Đặt flex-grow thành 1 để content_re3 mở rộng để lấp đầy không gian còn trống */
+    background-color: #f8f8f8;
+    color: #000000;
+    padding: 20px;
+    border-radius: 10px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
+    margin-top: 20px; /* Khoảng cách từ content_re2 */
+}
+.question-container {
+  /* CSS của phần câu hỏi */
+  margin-top: 20px; /* Khoảng cách giữa content_re2 và phần câu hỏi */
+}
+
+  .text-rec{
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 40%;
+    display: flex;
+    text-align: center;
+  }
+
+  .text-rec2{
+    font-size: 20px;
+  }
+  .question label {
+    display: block; /* Hiển thị mỗi label trên một dòng */
+    margin-bottom: 5px; /* Khoảng cách giữa các đáp án */
+}

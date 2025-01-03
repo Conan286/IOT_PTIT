@@ -1,0 +1,660 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>IOT N08</title>
+
+        <!-- CSS FILES -->      
+        <link rel="icon" type="image/png" href="images/ptit.png">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans&display=swap" rel="stylesheet">
+                        
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+        <link href="css/templatemo-topic-listing.css" rel="stylesheet">      
+<!--
+
+TemplateMo 590 topic listing
+
+https://templatemo.com/tm-590-topic-listing
+
+-->
+    </head>
+    
+    <body id="top">
+
+        <main>
+
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    
+
+                    <div class="d-lg-none ms-auto me-4">
+                        <a href="#top" class="navbar-icon bi-person smoothscroll"></a>
+                    </div>
+    
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+    
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-lg-5 me-lg-auto">
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_1">Trang Chủ</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="trangthai.html">Trạng Thái</a>
+                            </li>
+    
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="thongke.html">Thống Kê</a>
+                            </li>
+    
+                           
+
+                          
+                        </ul>
+
+                        <div class="d-none d-lg-block">
+                            <a href="#top" class="navbar-icon bi-person smoothscroll"></a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            
+
+        <section class="hero-section d-flex justify-content-center align-items-center" id="section_1">
+            <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-8 col-12 mx-auto">
+                            <h1 class="text-white text-center">Hệ Thống Giám Sát Bãi Đỗ Xe PTIT</h1>
+
+                            <h6 class="text-center" style="color:#fff">Nhóm 08</h6>
+<!-- 
+                            <form method="get" class="custom-form mt-4 pt-2 mb-lg-0 mb-5" role="search">
+                                <div class="input-group input-group-lg">
+                                    <span class="input-group-text bi-search" id="basic-addon1">
+                                        
+                                    </span>
+
+                                    <input name="keyword" type="search" class="form-control" id="keyword" placeholder="Tìm kiếm chức năng ..." aria-label="Search">
+
+                                    <button type="submit" class="form-control">Tìm Kiếm</button>
+                                </div>
+                            </form> -->
+                        </div>
+                    </div>
+
+                <div class="row" id="searchResults"  style="display:none;">
+                   
+                     <!-- This section will be populated with search results -->
+                    <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0"  style=" margin-top:30px;">
+                        <!-- This section will be populated with search results -->
+                        
+                    </div>
+                </div>
+
+                
+             </div>
+            </section>
+
+
+            <section class="featured-section">
+                <div class="container">
+                    <div class="row justify-content-center">
+
+                
+                        <div class="col-lg-6 col-12">
+                            <div class="custom-block custom-block-overlay" >
+                                <div class="d-flex flex-column h-100">
+                                    <img src="https://media.istockphoto.com/id/1138593540/vector/%C3%B0%C3%B0%C3%B1-%C3%B0%C3%B0%C3%B1%C3%B0%C2%B5%C3%B1%C3%B0%C3%B0%C2%B5%C3%B1%C3%B0.jpg?s=612x612&w=0&k=20&c=X1XEjp76u_r8NY4E8LBIQLtfPU4P9k3YcS9XE1tAZXc=" class="custom-block-image img-fluid" alt="">
+
+                                    <div class="custom-block-overlay-text d-flex">
+                                        <div>
+                                            <h5 class="text-white mb-2">Trạng Thái</h5>
+
+                                            <p class="text-white">Trạng Thái Vị Trí Đỗ Xe</p>
+                                           
+                                            <a href="trangthai.html" class="btn custom-btn mt-2 mt-lg-3">Xem chi tiết</a>
+                                        </div>
+
+                                    
+                                    </div>
+                                    
+                                    <div class="social-share d-flex" >
+                                        
+                                        <!-- <p class="text-white me-4" >Trạng thái: Đang mở</p>                                 -->
+                                  </div>
+                                    <div class="section-overlay"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-12">
+                            <div class="custom-block custom-block-overlay">
+                                <div class="d-flex flex-column h-100">
+                                    <img src="https://cdn.tgdd.vn/hoi-dap/1352810/cach-ve-bieu-do-trong-powerpoint-va-nhung-tuy-chinh-bieu-02-800x450.jpg" class="custom-block-image img-fluid" alt="">
+
+                                    <div class="custom-block-overlay-text d-flex">
+                                        <div>
+                                            <h5 class="text-white mb-2">Thống Kê</h5>
+
+                                            <p class="text-white">Thống kê về tần suất sử dụng</p>
+                                           
+                                            <a href="thongke.html" class="btn custom-btn mt-2 mt-lg-3">Xem chi tiết</a>
+                                        </div>
+
+                                    
+                                    </div>
+                                    
+                                    <div class="social-share d-flex">
+                                        <!-- <p class="text-white me-4">Trạng thái: Sắp mở</p>                                 -->
+                                  </div>
+                                    <div class="section-overlay"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- <section class="explore-section section-padding" id="section_2">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-12 text-center">
+                            <h2 class="mb-4">Các Kỳ Thi</h1>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="container-fluid">
+                    <div class="row">
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="luyentap-tab" data-bs-toggle="tab" data-bs-target="#luyentap-tab-pane" type="button" role="tab" aria-controls="luyentap-tab-pane" aria-selected="true">Luyện Tập</button>
+                            </li>
+
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="giuaki-tab" data-bs-toggle="tab" data-bs-target="#giuaki-tab-pane" type="button" role="tab" aria-controls="giuaki-tab-pane" aria-selected="false">Giữa Kỳ</button>
+                            </li>
+
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="cuoiki-tab" data-bs-toggle="tab" data-bs-target="#cuoiki-tab-pane" type="button" role="tab" aria-controls="cuoiki-tab-pane" aria-selected="false">Cuối Kỳ</button>
+                            </li>
+
+                    
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-12">
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade show active" id="luyentap-tab-pane" role="tabpanel" aria-labelledby="luyentap-tab" tabindex="0">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0" style="margin-top:30px">
+                                            <div class="custom-block bg-white shadow-lg">
+                                                <a href="#">
+                                                    <div class="d-flex">
+                                                        <div>
+                                                            <h5 class="mb-2">Lập Trình Web</h5>
+
+                                                            <p class="mb-0"> <a href="exam/test.html" class="btn custom-btn mt-2 mt-lg-3">Luyện Tập</a></p>
+                                                        </div>
+                                                       
+                                                        <span class="badge bg-design rounded-pill ms-auto" style="width:100px; background-color:green;">Đang mở</span>
+                                                    </div>
+
+                                                    <img src="images/exam.png" class="custom-block-image img-fluid" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0" style="margin-top:30px">
+                                            <div class="custom-block bg-white shadow-lg">
+                                                <a href="#">
+                                                    <div class="d-flex">
+                                                        <div>
+                                                            <h5 class="mb-2">Lập Trình Java</h5>
+
+                                                            <p class="mb-0"> <a href="exam/test.html" class="btn custom-btn mt-2 mt-lg-3">Luyện Tập</a></p>
+                                                        </div>
+                                                       
+                                                        <span class="badge bg-design rounded-pill ms-auto" style="width:100px; background-color:green;">Đang mở</span>
+                                                    </div>
+
+                                                    <img src="images/exam.png" class="custom-block-image img-fluid" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                    
+
+                                        <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0" style="margin-top:30px">
+                                            <div class="custom-block bg-white shadow-lg">
+                                                <a href="#">
+                                                    <div class="d-flex">
+                                                        <div>
+                                                            <h5 class="mb-2">Lập Trình C++</h5>
+
+                                                            <p class="mb-0"> <a href="exam/test.html" class="btn custom-btn mt-2 mt-lg-3">Luyện Tập</a></p>
+                                                        </div>
+                                                       
+                                                        <span class="badge bg-design rounded-pill ms-auto" style="width:100px; background-color:green;">Đang mở</span>
+                                                    </div>
+
+                                                    <img src="images/exam.png" class="custom-block-image img-fluid" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                             
+                                        <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0" style="margin-top:30px">
+                                            <div class="custom-block bg-white shadow-lg">
+                                                <a href="#">
+                                                    <div class="d-flex">
+                                                        <div>
+                                                            <h5 class="mb-2">Lập Trình Python</h5>
+
+                                                            <p class="mb-0"> <a href="exam/test.html" class="btn custom-btn mt-2 mt-lg-3">Luyện Tập</a></p>
+                                                        </div>
+                                                       
+                                                        <span class="badge bg-design rounded-pill ms-auto" style="width:100px; background-color:green;">Đang mở</span>
+                                                    </div>
+
+                                                    <img src="images/exam.png" class="custom-block-image img-fluid" alt="">
+                                                </a>
+                                            </div>
+                                        </div>                                       
+
+                                       
+                                        <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0" style="margin-top:30px">
+                                            <div class="custom-block bg-white shadow-lg">
+                                                <a href="#">
+                                                    <div class="d-flex">
+                                                        <div>
+                                                            <h5 class="mb-2">Tin Học Cơ Sở 2</h5>
+
+                                                            <p class="mb-0"> <a href="exam/test.html" class="btn custom-btn mt-2 mt-lg-3">Luyện Tập</a></p>
+                                                        </div>
+                                                       
+                                                        <span class="badge bg-design rounded-pill ms-auto" style="width:100px; background-color:green;">Đang mở</span>
+                                                    </div>
+
+                                                    <img src="images/exam.png" class="custom-block-image img-fluid" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+
+                                <div class="tab-pane fade" id="giuaki-tab-pane" role="tabpanel" aria-labelledby="giuaki-tab" tabindex="0">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0" style="margin-top:30px">
+                                            <div class="custom-block bg-white shadow-lg">
+                                                <a href="#">
+                                                    <div class="d-flex">
+                                                        <div>
+                                                            <h5 class="mb-2">Lập Trình Web</h5>
+
+                                                            <p class="mb-0"> <a href="exam/test.html" class="btn custom-btn mt-2 mt-lg-3">Thi Giữa Kỳ</a></p>
+                                                        </div>
+                                                       
+                                                        <span class="badge bg-design rounded-pill ms-auto" style="width:100px; background-color:green;">Đang mở</span>
+                                                    </div>
+
+                                                    <img src="images/giuaki.jpg" class="custom-block-image img-fluid" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0" style="margin-top:30px">
+                                            <div class="custom-block bg-white shadow-lg">
+                                                <a href="#">
+                                                    <div class="d-flex">
+                                                        <div>
+                                                            <h5 class="mb-2">Lập Trình Java</h5>
+
+                                                            <p class="mb-0"> <a href="exam/test.html" class="btn custom-btn mt-2 mt-lg-3">Thi Giữa Kỳ</a></p>
+                                                        </div>
+                                                       
+                                                        <span class="badge bg-design rounded-pill ms-auto" style="width:100px; background-color:green;">Đang mở</span>
+                                                    </div>
+
+                                                    <img src="images/giuaki.jpg" class="custom-block-image img-fluid" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0" style="margin-top:30px">
+                                            <div class="custom-block bg-white shadow-lg">
+                                                <a href="#">
+                                                    <div class="d-flex">
+                                                        <div>
+                                                            <h5 class="mb-2">Tin Học Cơ Sở 2</h5>
+
+                                                            <p class="mb-0"> <a href="#" class="btn custom-btn mt-2 mt-lg-3">Thi Giữa Kỳ</a></p>
+                                                        </div>
+                                                       
+                                                        <span class="badge bg-design rounded-pill ms-auto" style="width:100px; background-color:red;">Chưa mở</span>
+                                                    </div>
+
+                                                    <img src="images/giuaki.jpg" class="custom-block-image img-fluid" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0" style="margin-top:30px">
+                                            <div class="custom-block bg-white shadow-lg">
+                                                <a href="#">
+                                                    <div class="d-flex">
+                                                        <div>
+                                                            <h5 class="mb-2">Lập Trình C++</h5>
+
+                                                            <p class="mb-0"> <a href="exam/test.html" class="btn custom-btn mt-2 mt-lg-3">Thi Giữa Kỳ</a></p>
+                                                        </div>
+                                                       
+                                                        <span class="badge bg-design rounded-pill ms-auto" style="width:100px; background-color:green;">Đang mở</span>
+                                                    </div>
+
+                                                    <img src="images/giuaki.jpg" class="custom-block-image img-fluid" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0" style="margin-top:30px">
+                                            <div class="custom-block bg-white shadow-lg">
+                                                <a href="#">
+                                                    <div class="d-flex">
+                                                        <div>
+                                                            <h5 class="mb-2">Lập Trình Python</h5>
+
+                                                            <p class="mb-0"> <a href="exam/test.html" class="btn custom-btn mt-2 mt-lg-3">Thi Giữa Kỳ</a></p>
+                                                        </div>
+                                                       
+                                                        <span class="badge bg-design rounded-pill ms-auto" style="width:100px; background-color:green;">Đang mở</span>
+                                                    </div>
+
+                                                    <img src="images/giuaki.jpg" class="custom-block-image img-fluid" alt="">
+                                                </a>
+                                            </div>
+                                        </div>                       
+                                        </div>
+                                  </div>
+                            
+
+                                <div class="tab-pane fade" id="cuoiki-tab-pane" role="tabpanel" aria-labelledby="cuoiki-tab" tabindex="0">   <div class="row">
+                                    <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0" style="margin-top:30px">
+                                        <div class="custom-block bg-white shadow-lg">
+                                            <a href="#">
+                                                <div class="d-flex">
+                                                    <div>
+                                                        <h5 class="mb-2">Lập Trình Python</h5>
+
+                                                        <p class="mb-0"> <a href="#" class="btn custom-btn mt-2 mt-lg-3">Thi Cuối Kỳ</a></p>
+                                                    </div>
+                                                   
+                                                    <span class="badge bg-design rounded-pill ms-auto" style="width:100px; background-color:red;">Chưa mở</span>
+                                                </div>
+
+                                                <img src="images/cuoiki.png" class="custom-block-image img-fluid" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0" style="margin-top:30px">
+                                        <div class="custom-block bg-white shadow-lg">
+                                            <a href="#">
+                                                <div class="d-flex">
+                                                    <div>
+                                                        <h5 class="mb-2">Lập Trình Web</h5>
+
+                                                        <p class="mb-0"> <a href="#" class="btn custom-btn mt-2 mt-lg-3">Thi Cuối Kỳ</a></p>
+                                                    </div>
+                                                   
+                                                    <span class="badge bg-design rounded-pill ms-auto" style="width:100px; background-color:red;">Chưa mở</span>
+                                                </div>
+                                                <img src="images/cuoiki.png" class="custom-block-image img-fluid" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0" style="margin-top:30px">
+                                        <div class="custom-block bg-white shadow-lg">
+                                            <a href="#">
+                                                <div class="d-flex">
+                                                    <div>
+                                                        <h5 class="mb-2">Lập Trình Java</h5>
+
+                                                        <p class="mb-0"> <a href="#" class="btn custom-btn mt-2 mt-lg-3">Thi Cuối Kỳ</a></p>
+                                                    </div>                                                   
+                                                    <span class="badge bg-design rounded-pill ms-auto" style="width:100px; background-color:red;">Chưa mở</span>
+                                                </div>
+
+                                                <img src="images/cuoiki.png" class="custom-block-image img-fluid" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                   <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0" style="margin-top:30px">
+                                        <div class="custom-block bg-white shadow-lg">
+                                            <a href="#">
+                                                <div class="d-flex">
+                                                    <div>
+                                                        <h5 class="mb-2">Tin Học Cơ Sở 2</h5>
+
+                                                        <p class="mb-0"> <a href="#" class="btn custom-btn mt-2 mt-lg-3">Thi Cuối Kỳ</a></p>
+                                                    </div>
+                                                   
+                                                    <span class="badge bg-design rounded-pill ms-auto" style="width:100px; background-color:red;">Chưa mở</span>
+                                                </div>
+
+                                                <img src="images/cuoiki.png" class="custom-block-image img-fluid" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0" style="margin-top:30px">
+                                        <div class="custom-block bg-white shadow-lg">
+                                            <a href="#">
+                                                <div class="d-flex">
+                                                    <div>
+                                                        <h5 class="mb-2">Lập Trình C++</h5>
+
+                                                        <p class="mb-0"> <a href="exam/test.html" class="btn custom-btn mt-2 mt-lg-3">Thi Cuối Kỳ</a></p>
+                                                    </div>
+                                                   
+                                                    <span class="badge bg-design rounded-pill ms-auto" style="width:100px; background-color:green;">Đang mở</span>
+                                                </div>
+
+                                                <img src="images/cuoiki.png" class="custom-block-image img-fluid" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>               
+                                                          
+                           </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="timeline-section section-padding" id="section_3">
+                <div class="section-overlay"></div>
+
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-12 text-center">
+                            <h2 class="text-white mb-4">Hướng Dẫn Thi</h1>
+                        </div>
+
+                        <div class="col-lg-10 col-12 mx-auto">
+                            <div class="timeline-container">
+                                <ul class="vertical-scrollable-timeline" id="vertical-scrollable-timeline">
+                                    <div class="list-progress">
+                                        <div class="inner"></div>
+                                    </div>
+
+                                    <li>
+                                        <h4 class="text-white mb-3">Tạo Tài Khoản</h4>
+
+                                        <p class="text-white">Tạo tài khoản và đăng nhập vào trang chủ hệ thống </p>
+
+                                        <div class="icon-holder">
+                                          <i class="bi-person-circle"></i>
+                                        </div>
+                                    </li>
+                                    
+                                    <li>
+                                        <h4 class="text-white mb-3">Lựa chọn kỳ thi</h4>
+
+                                        <p class="text-white">Tìm kiếm và lựa chọn kỳ thi theo tên kỳ thi hoặc hình thức như: Luyện tập, Giữa Kỳ, Cuối Kỳ, ...</p>
+
+                                        <div class="icon-holder">
+                                          <i class="bi-search"></i>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <h4 class="text-white mb-3">Tham gia</h4>
+
+                                        <p class="text-white">Sau khi lựa chọn kì thi phù hợp, bạn chọn vào thi để làm bài</p>
+
+                                        <div class="icon-holder">
+                                          <i class="bi-box-arrow-in-right"></i>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                      
+                    </div>
+                </div>
+            </section>
+
+          -->
+        </main>
+
+<!-- <footer class="site-footer section-padding">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-3 col-12 mb-4 pb-2">
+                        <a class="navbar-brand mb-2" href="#section_1">
+                            <img src="images/ptit.png" style="width:80px;" alt="">
+                            <span></span>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <h6 class="site-footer-title mb-3">Tài Nguyên</h6>
+
+                        <ul class="site-footer-links">
+                            <li class="site-footer-link-item">
+                                <a href="#" class="site-footer-link">Trang Chủ</a>
+                            </li>
+
+                            <li class="site-footer-link-item">
+                                <a href="#section_2" class="site-footer-link">Kỳ Thi</a>
+                            </li>
+
+                            <li class="site-footer-link-item">
+                                <a href="#section_3" class="site-footer-link">Hướng dẫn</a>
+                            </li>
+
+                           
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-6 mb-4 mb-lg-0">
+                        <h6 class="site-footer-title mb-3">Liên hệ</h6>
+
+                        <p class="text-white d-flex mb-1">
+                            <a href="tel: 024 3352 5741" class="site-footer-link">
+                                024 3352 5741
+                            </a>
+                        </p>
+
+                        <p class="text-white d-flex mb-1">
+                            <a href="#site-footer section-padding" class="site-footer-link">
+                                ptit@edu.vn
+                            </a>
+                        </p>
+
+                        <p class="text-white d-flex">
+                            <a href="#site-footer section-padding" class="site-footer-link">
+                                Km10 Nguyễn Trãi, Hà Đông
+                            </a>
+                        </p>
+
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-6 mb-4 mb-lg-0">
+                        <h6 class="site-footer-title mb-3">Mạng Xã Hội</h6>
+
+                        <p class="text-white d-flex mb-1">
+                            <a href="#section_4" class="site-footer-link">
+                                Fanpage
+                            </a>
+                        </p>
+
+                        <p class="text-white d-flex mb-1">
+                            <a href="#section_4" class="site-footer-link">
+                                Youtube
+                            </a>
+                        </p>
+
+                        <p class="text-white d-flex mb-1">
+                            <a href="#section_4" class="site-footer-link">
+                                Tiktok
+                            </a>
+                        </p>
+
+                        
+
+                    </div>
+
+             
+
+                </div>
+            </div>
+        </footer> -->
+
+
+        <!-- JAVASCRIPT FILES -->
+        <!--Js file-->
+
+        <script src="js/search-exam.js"></script>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/jquery.sticky.js"></script>
+        <script src="js/click-scroll.js"></script>
+        <script src="js/custom.js"></script>
+
+    </body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hệ thống giám sát vị trí đỗ xe</title>
+    <link rel="stylesheet" href="css/stylesTT.css"> <!-- Kết nối tệp CSS -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>IOT N08 - Thống Kê</title>
+
+    <!-- CSS FILES -->      
+    <link rel="icon" type="image/png" href="images/ptit.png">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans&display=swap" rel="stylesheet">
+                    
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+    <link href="css/templatemo-topic-listing.css" rel="stylesheet">  
+    <!-- Firebase SDKs -->
+    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-database-compat.js"></script>
+    <script src="js/script.js" defer></script> <!-- Kết nối tệp JavaScript -->
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg" style="width: 100%;">
+        <div class="container">
+            
+
+            <div class="d-lg-none ms-auto me-4">
+                <a href="index.html" class="navbar-icon  bi-arrow-left smoothscroll"></a>
+            </div>
+
+          
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+               
+
+                <div class="d-none d-lg-block">
+                    <a href="index.html" class="navbar-icon  bi-arrow-left smoothscroll"></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <h1 style="margin-top: 6%;">Thống Kê Số Lượt Sử Dụng</h1>
+     
+	 <canvas id="usageChart" width="400" height="200"></canvas>
+    
+   
+    <h1 style="margin-top: 6%;">Thống Kê Thời Gian Sử Dụng</h1>
+     
+    <canvas id="timeChart" width="400" height="200"></canvas>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</html>
